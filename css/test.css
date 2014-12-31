@@ -1,0 +1,84 @@
+body {
+    padding-top: 40px;
+    font-family: arial;
+    background-color: black;
+    opacity: .9;
+}
+
+#navbar {
+    border-bottom: 1px solid red;
+    background: #ddd;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+#navbar li {
+    padding: 10px;
+    float: left;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+#navbar .active a {
+    color: red;
+}
+
+/* Remove this if you want to try $('body').scrollspy(); */
+#content {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.page1 {
+    border: 1px solid #ddd;
+    border-width: 1px 0;
+    background: black;
+    margin: 20px 0;
+    padding: 100px;
+    height: 700px;
+}
+
+.page2 {
+    border: 1px solid #ddd;
+    border-width: 1px 0;
+    background: black;
+    margin: 20px 0;
+    padding: 100px;
+    height: 4400px;
+}
+
+.page3 {
+    border: 1px solid #ddd;
+    border-width: 1px 0;
+    background: black;
+    margin: 20px 0;
+    padding: 100px;
+    height: 700px;
+}
+
+#content h1 {
+    color: white;
+    font-size: 300%;
+}
+
+.companyLogos1 img {
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+    display: inline-block;
+}
+
+.companyLogos img {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+}
+
+.projectImg img {
+    height: 100%;
+    width: 100%;
+}

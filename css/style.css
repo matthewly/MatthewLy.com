@@ -1,0 +1,202 @@
+
+body {
+    font-family: arial;
+    background-color: black;
+    opacity: .9;
+    position: relative;
+}
+
+#home {
+    width: 100%;
+}
+
+.jumbotron p {
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-bottom: .4em;
+    color: black;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+}
+
+.header {
+    position:fixed;
+    z-index:10;
+    background:inherit;
+    width: 100%;
+    text-align: center;
+}
+
+.home {
+    padding-top: 80px;
+    width:100%;
+    z-index:5;
+    overflow:auto;
+
+}
+
+.header img {
+    padding-left: 40px;
+    float: left;
+}
+
+
+#footer img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+nav {
+    float: right;
+
+}
+
+nav ul li {
+    display: inline;
+    line-height: 80px;
+    cursor: pointer;
+    font-size: 1.8em;
+    margin-left: 15px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding-right: 45px;
+}
+
+ul {
+    list-stype-type: none;
+}
+
+nav {
+    display: block;
+}
+
+nav ul li a {
+    color: white;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+nav ul li a:hover, nav ul li a:hover:before {
+    color: orange;
+}
+
+h1 {
+    color: white;
+    font-size: 300%;
+}
+
+.home h2 {
+    text-align: center;
+    color: white;
+}
+
+#who {
+    color: white;
+    padding-top: 80px;
+}
+
+.jumbotron h2 {
+    color: black;
+}
+
+blockquote {
+    width: 500px;
+    height: 270px;
+    overflow: hidden;
+}
+blockquote .jumbotron {
+    display: block;
+}
+
+.jumbotron:hover {
+    display: block;
+}
+
+blockquote:before {
+    display: block;
+    background-color: #cccccc;
+    color: white;
+    content: "Hover to Expand";
+    position: relative;
+    top: 200px;
+    height: 0px;
+    box-shadow: 0px 30px 30px 30px #cccccc;
+    text-align: center;
+    font-size: 24px;
+}
+
+blockquote:hover:before {
+    display: none
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1.0
+}
+
+
+
+.companyLogos img {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+}
+
+.companyLogos1 img {
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+    display: inline-block;
+}
+#footer .social-icons img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 1px;
+}
+
+.social-icons img:hover, .social-icons img:hover:before {
+    opacity: 0.4;
+}
+
+.contactTable {
+    float: left;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 20px 0;
+    margin: 10px;
+}
+
+#footer {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+
+
+.linebreak img {
+    width: 100%;
+    height: 30px;
+}
+
+
+.projectImg img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
